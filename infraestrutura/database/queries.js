@@ -1,6 +1,6 @@
 const conexao = require('./conexao')
 
-const executaryQuery = (query, parametros = '') =>{
+const executarQuery = (query, parametros = '') =>{
     return new Promise ((resolve,reject) => {
         conexao.query(query, parametros, (erros, resultados,campos)=>{
             if(erros) {
@@ -12,3 +12,5 @@ const executaryQuery = (query, parametros = '') =>{
     })
     
 }
+
+module.exports = executarQuery
