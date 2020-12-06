@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/wleandrooliveira/api-nodejs-rest/issues"
   },
-  "homepage": "https://github.com/wleandrooliveira/api-nodejs-rest#readme"
+  "homepage": "https://github.com/wleandrooliveira/api-nodejs-rest#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
